@@ -25,7 +25,7 @@ sudo apt install nginx curl git -y
 Install Node.js, which is required to run your backend applications, and PM2, which is a process manager for keeping them running smoothly:
 
 ```sh
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
 sudo apt install -y nodejs
 sudo npm install -g pm2
 ```
